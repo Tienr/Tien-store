@@ -1,0 +1,69 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Boutonniere",
+          "price": 15.00,
+          "image": { "fields": { "file": { "url": "./images/bout.JPG" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Corsage",
+          "price": 25.00,
+          "image": { "fields": { "file": { "url": "./images/corsage.JPG" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Small Centerpiece",
+          "price": 50.00,
+          "image": { "fields": { "file": { "url": "./images/hydrangea.JPG" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Medium Centerpiece",
+          "price": 70.00,
+          "image": { "fields": { "file": { "url": "./images/lantern.JPG" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Large Centerpiece",
+          "price": 90.00,
+          "image": { "fields": { "file": { "url": "./images/silverpumkin.JPG" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Custom Centerpiece",
+          "price": 90.00,
+          "image": { "fields": { "file": { "url": "./images/Pumkin.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Wedding Centerpiece",
+          "price": 80.00,
+          "image": { "fields": { "file": { "url": "./images/logo.JPG" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Wedding Bouquet",
+          "price": 135.00,
+          "image": { "fields": { "file": { "url": "./images/WMJY8216.JPG" } } }
+        }
+      }
+    ]
+  }
+  
