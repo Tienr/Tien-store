@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tien's Elegant Bouquet</title>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/a1e04c447b.js" crossorigin="anonymous"></script>
+    <!--custom css-->
+    <link rel="stylesheet" href ="styles.css">
+</head>
+<body>
+    <nav class = "narvbar">
+        <div class = "navbar_title_center">
+            <div class="dropdown">
+                <button class ="nav-icon">
+                    <i class ="fas fa-bars"></i>
+                </button>
+                <div class="dropdown-content">
+                    
+                    <a href ="index.html">Home</a>
+                    <a href ="about.html">About</a>
+                    <a href = "#">Blog</a>
+                </div>
+                </div>
+                <h1 style = "font-size:30px">Tien's Elegant Bouquets</h1>
+            
+        </div>
+    </nav>
+    <div class = "form_outline">
+        <h3 class = "form_title">Let's talk flowers!We love to listen to you</h3>
+        <img class = "white" src = "pexels-olya-kobruseva-5038051.jpg" alt = "white bouquet" height = "600px" width="400">
+        <div class="form_work">
+        <form class = "inquiry" name = "contact" method = "POST" data-netlify = "true">
+            <div class="form_inline">
+            <label class="form-label" for="formControlLg">Name(Require)</label>
+                <input type="text" name ="name" id="name" class="form-control form-control-lg" required/>
+                </div>
+            <div class="form_inline">
+                <label class="form-label" for="formControlLg">Email(Require)</label>
+                <input type="email" name ="email" id="email" class="form-control form-control-lg" required/>
+                </div>
+                <div class = "from_inline">
+            <label class = "form-label" for = "formControlLg">Date of Event</label>
+            <input type = "date" id = "date" name ="date" class = "form-control form-control-lg" required/>
+                </div>
+            <div class="form_inline">
+                <label class="form-label" for="formControlLg" >Venue(Require)</label>
+                <input type="text" name ="venue" id="formControlLg" class="form-control form-control-lg" />
+                </div>
+                <div class="form-text">
+                    <label class="form-label" for="textAreaExample">Any details (buget,style, etc)</label>
+                    <textarea name = "message"class="form-control" id="textArea" rows="10"></textarea>
+                    
+                  </div>
+                  <div class = "button">
+                  <button class =" btn" type = "submit">Submit</button>
+                  </div>
+
+        </form>
+        </div>
+    </div>
+</head>
+
+    
+</body>
+</html>
